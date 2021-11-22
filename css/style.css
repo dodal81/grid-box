@@ -34,35 +34,98 @@ main {
       width: 33.3333%;
       height: 40vh;
       padding: 5px;
-      float: left; }
+      float: left;
+      transition: 0.5s; }
+      main section .box:nth-last-of-type(1) .inner {
+        background: url(../img/main10.jpg) no-repeat center/cover; }
+      main section .box:nth-last-of-type(2) .inner {
+        background: url(../img/main09.jpg) no-repeat center/cover; }
+      main section .box:nth-last-of-type(3) {
+        position: relative; }
+        main section .box:nth-last-of-type(3) .inner::before {
+          content: "terracotta";
+          text-align: center;
+          font: 25px/1.3 "Spartan";
+          display: block;
+          color: #111;
+          position: absolute;
+          top: -20px;
+          left: 32%;
+          transform: rotate(-90deg);
+          letter-spacing: 1.3px; }
+        main section .box:nth-last-of-type(3) .inner::after {
+          content: "decoating with \A cotton branches";
+          white-space: pre;
+          text-align: center;
+          font: 25px/1.3 "Spartan";
+          display: block;
+          color: #111;
+          position: absolute;
+          bottom: 50px;
+          right: -70px;
+          letter-spacing: 1.3px; }
+      main section .box:nth-last-of-type(4) {
+        position: relative; }
+        main section .box:nth-last-of-type(4) .inner::before {
+          content: "art on shelves";
+          text-align: center;
+          font: 25px/1.3 "Spartan";
+          display: block;
+          color: #111;
+          position: absolute;
+          top: 60px;
+          left: -65px;
+          letter-spacing: 1.3px; }
+        main section .box:nth-last-of-type(4) .inner::after {
+          content: "the parentesi Lamp \A in the bedroom";
+          white-space: pre;
+          text-align: center;
+          font: 25px/1.3 "Spartan";
+          display: block;
+          color: #111;
+          position: absolute;
+          top: 40px;
+          right: -80px;
+          transform: rotate(90deg);
+          letter-spacing: 1.3px; }
+      main section .box:nth-last-of-type(5) .inner {
+        background: url(../img/main08.jpg) no-repeat center/cover; }
+      main section .box:nth-last-of-type(6) .inner {
+        background: url(../img/main07.jpg) no-repeat center/cover; }
+      main section .box:nth-last-of-type(7) .inner {
+        background: url(../img/main06.jpg) no-repeat center/cover; }
       main section .box:nth-last-of-type(8) {
         width: 66.666%;
         position: relative; }
         main section .box:nth-last-of-type(8) .inner h2 {
           font: bold 30px/1 "Spartan";
-          text-align: center; }
+          text-align: center;
+          padding-top: 150px;
+          letter-spacing: 1.3px; }
         main section .box:nth-last-of-type(8) .inner::before {
           content: "FAVORITE DECOR MOMENTS";
           white-space: pre;
           text-align: center;
-          font: 25px/1.3 "Spartan";
+          font: 35px/1.3 "Spartan";
           display: block;
           color: #111;
           position: absolute;
-          top: 50px;
+          letter-spacing: 1.5px;
+          top: 240px;
           left: 50%;
           transform: translateX(-50%); }
         main section .box:nth-last-of-type(8) .inner::after {
-          content: "terrazzo";
+          content: "www.dodajeong.com";
           white-space: pre;
           text-align: center;
           font: 25px/1.3 "Spartan";
           display: block;
-          color: #111;
+          color: #666;
           position: absolute;
-          bottom: 80px;
-          right: -20px;
-          transform: rotate(-90deg); }
+          bottom: 90px;
+          left: 50%;
+          transform: translateX(-50%);
+          letter-spacing: 1.3px; }
       main section .box:nth-last-of-type(9) .inner {
         background: url(../img/main01.jpg) no-repeat center/cover; }
       main section .box:nth-last-of-type(10) .inner {
@@ -79,7 +142,8 @@ main {
           position: absolute;
           top: 50px;
           left: 50%;
-          transform: translateX(-50%); }
+          transform: translateX(-50%);
+          letter-spacing: 1.3px; }
         main section .box:nth-last-of-type(11) .inner::after {
           content: "terrazzo";
           white-space: pre;
@@ -90,7 +154,8 @@ main {
           position: absolute;
           bottom: 80px;
           right: -20px;
-          transform: rotate(-90deg); }
+          transform: rotate(-90deg);
+          letter-spacing: 1.3px; }
       main section .box:nth-last-of-type(12) {
         position: relative; }
         main section .box:nth-last-of-type(12) .inner::before {
@@ -102,7 +167,8 @@ main {
           color: #111;
           position: absolute;
           top: 50px;
-          left: -100px; }
+          left: -100px;
+          letter-spacing: 1.3px; }
         main section .box:nth-last-of-type(12) .inner::after {
           content: "sculpture on \A pedestals";
           white-space: pre;
@@ -113,14 +179,14 @@ main {
           position: absolute;
           bottom: -15px;
           right: 5px;
-          transform: rotate(90deg); }
+          transform: rotate(90deg);
+          letter-spacing: 1.3px; }
       main section .box:nth-last-of-type(13) .inner {
         background: url(../img/main03.jpg) no-repeat center/cover; }
       main section .box:nth-last-of-type(14) .inner {
         background: url(../img/main04.jpg) no-repeat center/cover; }
       main section .box .inner {
         width: 100%;
-        height: 100%;
-        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); }
+        height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
